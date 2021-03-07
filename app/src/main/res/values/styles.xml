@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/material_black</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:textColorPrimary">@color/material_grey900</item>
+        <item name="android:textColorSecondary">@color/material_grey600</item>
+        <item name="android:fontFamily">@font/quicksand</item>
+        <item name="android:textSize">14sp</item>
+        <item name="editTextBackground">@color/material_black</item>
+        <item name="editTextColor">@color/material_black</item>
+        <item name="android:windowBackground">@color/material_white</item>
+        <item name="android:navigationBarColor">@color/material_black</item>
+        <item name="android:backgroundTintMode">@color/material_white</item>
+        <item name="android:backgroundTint">@color/material_white</item>
+        <item name="android:background">@color/material_white</item>
+    </style>
+
+    <style name="primary_button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="fontFamily">@font/quicksand</item>
+        <item name="android:height">60dp</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:fontFamily">@font/quicksand</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/material_white</item>
+        <item name="android:shadowColor">@color/material_white</item>
+        <item name="android:background">@color/color_primary</item>
+        <item name="android:backgroundTintMode">@color/color_primary</item>
+        <item name="android:backgroundTint">@color/color_primary</item>
+        <item name="android:buttonStyle">@style/Widget.MaterialComponents.Button</item>
+    </style>
+
+    <style name="secondary_button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">0dp</item>
+        <item name="fontFamily">@font/quicksand</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:height">60dp</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:fontFamily">@font/quicksand</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="background">@color/material_red100</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:shadowColor">@color/color_primaryDark</item>
+        <item name="android:background">@color/color_primaryDark</item>
+        <item name="android:backgroundTint">@color/color_primaryDark</item>
+        <item name="android:backgroundTintMode">@color/color_primaryDark</item>
+        <item name="android:buttonStyle">@style/Widget.MaterialComponents.Button</item>
+    </style>
+
+    <style name="MyHintStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/material_black</item>
+        <item name="fontFamily">@font/quicksand</item>
+    </style>
+
+    <style name="InputEditText" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxStrokeColor">@color/material_black</item>
+        <item name="boxStrokeWidth">0.5dp</item>
+        <item name="boxStrokeWidthFocused">0.5dp</item>
+        <item name="android:textColorHintInverse">@color/material_black</item>
+        <item name="android:textColorPrimary">@color/material_black</item>
+
+        <item name="errorTextAppearance">@color/material_redA200</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:focusableInTouchMode">true</item>
+
+        <item name="android:focusable">true</item>
+        <item name="fontFamily">@font/quicksand</item>
+        <!-- The color of the label -->
+        <item name="android:colorError" tools:targetApi="o">@color/material_redA200</item>
+        <!--the color of text-->
+        <item name="android:textColor">@color/material_grey700</item>
+        <item name="colorAccent">@color/material_black</item>
+        <item name="colorControlNormal">@color/material_black</item>
+        <item name="colorControlActivated">@color/material_black</item>
+        <item name="colorControlHighlight">@color/material_black</item>
+    </style>
+
+
+</resources>
