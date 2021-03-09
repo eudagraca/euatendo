@@ -7,7 +7,7 @@
     android:background="@color/material_white"
     android:backgroundTintMode="@color/material_white"
     tools:context=".ui.auth.LoginFragment">
-
+c
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

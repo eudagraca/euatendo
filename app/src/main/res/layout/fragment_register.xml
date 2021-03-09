@@ -11,7 +11,6 @@
         android:layout_height="wrap_content"
         android:padding="20dp">
 
-
         <TextView
             android:id="@+id/tv_header_sing_up"
             android:layout_width="match_parent"
@@ -19,6 +18,7 @@
             android:layout_marginTop="50dp"
             android:fontFamily="@font/quicksand"
             android:text="Criar Conta"
+            android:textStyle="bold"
             android:textSize="@dimen/header_text" />
 
         <TextView
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_header_sing_up"
             android:fontFamily="@font/quicksand"
-            android:text="Crie sua conta e marque já a sua\n consulta com os melhores profissionais"
+            android:text="Crie sua conta e marque já a sua\nconsulta com os melhores profissionais"
             android:textSize="16sp" />
 
         <LinearLayout
