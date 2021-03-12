@@ -16,6 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
             android:fontFamily="@font/quicksand"
             android:text="Criar Conta"
             android:textStyle="bold"
@@ -44,14 +45,17 @@
                 app:counterMaxLength="50">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    style="@style/InputEditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Nome"
                     android:imeOptions="actionNext"
                     android:inputType="textPersonName"
                     android:maxLength="50"
-                    android:text="@={user.user.fullName}" />
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textSize="16sp"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -62,14 +66,18 @@
                 app:counterMaxLength="150">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    style="@style/InputEditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Email"
                     android:imeOptions="actionNext"
                     android:inputType="textEmailAddress"
                     android:maxLength="150"
-                    android:text="@={user.user.email}" />
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    android:fontFamily="@font/quicksand"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textSize="16sp" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -80,14 +88,18 @@
                 app:counterMaxLength="15">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    style="@style/InputEditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Contacto"
                     android:imeOptions="actionNext"
                     android:inputType="phone"
                     android:maxLength="15"
-                    android:text="@={user.phoneNumber}" />
+                    android:fontFamily="@font/quicksand"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textSize="16sp"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -98,13 +110,17 @@
                 app:passwordToggleEnabled="true">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    style="@style/InputEditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/quicksand"
                     android:hint="Senha"
                     android:imeOptions="actionDone"
-                    android:inputType="textPassword" />
+                    android:inputType="textPassword"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textSize="16sp"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -127,6 +143,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/quicksand"
                     android:text="Já tem conta ? " />
 
                 <TextView
@@ -134,6 +151,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Inicie a sessão"
+                    android:fontFamily="@font/quicksand"
                     android:textColor="@color/color_primary" />
 
             </LinearLayout>

@@ -1,6 +1,7 @@
 package br.com.euatendo.data.repository
 
 import br.com.euatendo.data.network.APIService
+import br.com.euatendo.model.User
 
 class AuthRepository(
     private val api: APIService
@@ -10,6 +11,6 @@ class AuthRepository(
         email: String,
         password: String,
     ) = safeApiCall{
-        api.login(email, password)
+        api.login(User(email = email, password = password))
     }
 }

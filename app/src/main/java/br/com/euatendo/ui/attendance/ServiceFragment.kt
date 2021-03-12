@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import br.com.euatendo.R
 
-class AttendanceFragment : Fragment() {
+class ServiceFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,7 +19,7 @@ class AttendanceFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_attendance, container, false)
+        val view = inflater.inflate(R.layout.fragment_services, container, false)
 
         return view
     }

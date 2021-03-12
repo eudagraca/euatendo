@@ -1,4 +1,4 @@
-package br.com.euatendo.util
+package br.com.euatendo.data.network
 
 import okhttp3.ResponseBody
 

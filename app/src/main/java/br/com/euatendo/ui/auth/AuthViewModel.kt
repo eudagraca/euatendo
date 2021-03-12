@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import br.com.euatendo.data.responses.LoginResponse
 import br.com.euatendo.data.repository.AuthRepository
-import br.com.euatendo.util.Resource
+import br.com.euatendo.data.network.Resource
 import kotlinx.coroutines.launch
 
 class AuthViewModel(

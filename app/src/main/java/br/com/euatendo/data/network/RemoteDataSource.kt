@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class RemoteDataSource {
     companion object {
-        private const val baseUrl = "http://localhost:3000/"
+        private const val baseUrl = "http://192.168.137.104:3000/"
         private var gson: Gson = GsonBuilder()
             .setDateFormat("yyyy-MM-dd'T'HH:mm:ssZ")
             .create()

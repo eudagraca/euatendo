@@ -8,10 +8,8 @@ interface APIService {
     @GET("users/{id}")
     suspend fun getUser(@Path("id") id: Int) : User
 
-    @FormUrlEncoded
-    @POST("users")
+    @POST("login")
     suspend fun login(
-        @Field("email") email: String,
-        @Field("password") password: String
+        @Body user: User
     ): LoginResponse
 }
